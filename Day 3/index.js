@@ -1,20 +1,26 @@
 arr1 = [4, 10, 6, 9, 15, 18]
 
 
-const FizzBuzz = (arr) => {
-    counter = []
+
+
+const FizzBuzz1 = (arr) => {
+    counter = [];
+    counter1 = [];
     for (let i = 0; i < arr.length; i++) {
-        if (arr[i] % 3 === 0 && arr[i] % 5 === 0){
-            counter.push("FizzBuzz");
-        }else if (arr[i] % 3 === 0){
-            counter.push("Fizz");
-        }else if (arr[i] % 5 === 0) {
-            counter.push("Buzz");
-        }else {
-            counter.push(arr[i]);
+        for(let i = 1; i <= arr[i]; i++){
+            if (i % 3 === 0 && i % 5 === 0) {
+                counter.push('FizzBuzz');
+            }else if (i % 3 === 0){
+                counter.push('Fizz');
+            }else if (i % 5 === 0){
+                counter.push('Buzz');
+            }else {
+                counter.push(i);
+            }
+            counter1.push(counter);
+            counter = []
         }
-    }
-    console.log(counter)
+    return counter1;
 }
 
-FizzBuzz(arr1);
+FizzBuzz1(arr1);
