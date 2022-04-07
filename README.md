@@ -7,4 +7,4 @@ Day two link: https://replit.com/@Cheerio-ban/30DaysOfCode#Day%202/index.js
 Day three link : https://replit.com/@Cheerio-ban/30DaysOfCode-2#Day%203/index.py
 
 
-PS: I am not so familiar with using git and I am trying to learn, I infact did submit yesterday's task just to find out it didn't commit them today. Is there a way to make up for this?
+PS: I am not so familiar with using git and I am trying to learn, I infact did submit yesterday's task just to find out it didn't commit them today. Is there a way to make up for the day 1?
